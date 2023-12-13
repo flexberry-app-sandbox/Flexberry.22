@@ -1,0 +1,106 @@
+﻿{
+  "name": "IIS22Сотрудники",
+  "modelName": "i-i-s-22-сотрудники",
+  "className": "Сотрудники",
+  "nameSpace": "IIS.22",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имя",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "должностиКу",
+      "relatedTo": "i-i-s-22-должности-ку",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СотрудникиE",
+      "modelName": "i-i-s-22-сотрудники",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "ИмяДол",
+          "lookupValueField": "имяДол",
+          "relationName": "ДолжностиКу",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяДол",
+              "caption": "Должность",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Должности ку",
+          "name": "должностиКу",
+          "relatedTo": "i-i-s-22-должности-ку",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "СотрудникиL",
+      "modelName": "i-i-s-22-сотрудники",
+      "attrs": [
+        {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ДолжностиКу",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "имяДол",
+              "caption": "Должность",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Должность",
+          "name": "должностиКу",
+          "relatedTo": "i-i-s-22-должности-ку",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

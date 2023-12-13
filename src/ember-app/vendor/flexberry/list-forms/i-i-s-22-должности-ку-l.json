@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-22-должности-ку-e",
+  "editForm": "i-i-s-22-должности-ку-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IIS22ДолжностиКуL",
+  "className": "ДолжностиКуL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-22-должности-ку",
+      "modelProjection": "ДолжностиКуL"
+    }
+  ]
+}

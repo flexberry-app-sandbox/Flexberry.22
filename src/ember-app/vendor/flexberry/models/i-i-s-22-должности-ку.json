@@ -1,0 +1,54 @@
+﻿{
+  "name": "IIS22ДолжностиКу",
+  "modelName": "i-i-s-22-должности-ку",
+  "className": "ДолжностиКу",
+  "nameSpace": "IIS.22",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "имяДол",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДолжностиКуE",
+      "modelName": "i-i-s-22-должности-ку",
+      "attrs": [
+        {
+          "name": "имяДол",
+          "caption": "Имя дол",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДолжностиКуL",
+      "modelName": "i-i-s-22-должности-ку",
+      "attrs": [
+        {
+          "name": "имяДол",
+          "caption": "Имя дол",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

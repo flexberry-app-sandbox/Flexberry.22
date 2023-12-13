@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Должности",
+  "name": "IIS22ДолжностиКуE",
+  "className": "ДолжностиКуE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-22-должности-ку",
+      "modelProjection": "ДолжностиКуE"
+    }
+  ]
+}

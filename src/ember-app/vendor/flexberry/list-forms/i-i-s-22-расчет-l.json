@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-22-расчет-e",
+  "editForm": "i-i-s-22-расчет-e",
+  "external": false,
+  "caption": "Расчет",
+  "name": "IIS22РасчетL",
+  "className": "РасчетL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-22-расчет",
+      "modelProjection": "РасчетL"
+    }
+  ]
+}
