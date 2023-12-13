@@ -22,19 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-22-расчет-l',
             caption: i18n.t('forms.application.sitemap.22.i-i-s-22-расчет-l.caption'),
             title: i18n.t('forms.application.sitemap.22.i-i-s-22-расчет-l.title'),
-            icon: 'edit',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-22-должности-ку-l',
             caption: i18n.t('forms.application.sitemap.22.i-i-s-22-должности-ку-l.caption'),
             title: i18n.t('forms.application.sitemap.22.i-i-s-22-должности-ку-l.title'),
-            icon: 'tasks',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-22-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.22.i-i-s-22-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.22.i-i-s-22-сотрудники-l.title'),
-            icon: 'folder',
+            icon: 'file',
             children: null
           }]
         }

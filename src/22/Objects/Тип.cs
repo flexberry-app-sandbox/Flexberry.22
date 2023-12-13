@@ -12,6 +12,7 @@ namespace IIS.22
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,11 +32,13 @@ namespace IIS.22
         // *** Start programmer edit section *** (Тип.Кука CustomAttributes)
 
         // *** End programmer edit section *** (Тип.Кука CustomAttributes)
+        [Caption("Кука")]
         Кука,
         
         // *** Start programmer edit section *** (Тип.Нука CustomAttributes)
 
         // *** End programmer edit section *** (Тип.Нука CustomAttributes)
+        [Caption("Нука")]
         Нука,
     }
 }

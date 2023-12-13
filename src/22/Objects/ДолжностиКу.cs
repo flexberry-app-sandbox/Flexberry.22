@@ -27,7 +27,7 @@ namespace IIS.22
 
     // *** End programmer edit section *** (ДолжностиКу CustomAttributes)
     [AutoAltered()]
-    [Caption("Должности ку")]
+    [Caption("Должности")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ДолжностиКуE", new string[] {
             "ИмяДол as \'Имя дол\'"})]
